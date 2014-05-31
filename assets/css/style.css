@@ -21,7 +21,7 @@ License URI: URI: http://themeforest.net/licenses
 body{
 	font-family: 'Roboto', sans-serif;
 	border-top:10px solid #fff;
-	background:#f5f5f5 url(../img/bg.jpg) no-repeat top center;
+	background:#f5f5f5 url(../img/bg.jpg) no-repeat center 10px;
 	background-size:cover;
 	color:#283a39;
 }
@@ -33,14 +33,102 @@ body{
 .m-t-20{margin-top:20px;}
 .m-t-25{margin-top:25px;}
 .m-t-30{margin-top:30px;}
+.m-t-35{margin-top:35px;}
+.m-t-40{margin-top:40px;}
+.m-t-45{margin-top:45px;}
+.m-t-50{margin-top:50px;}
+.m-t-55{margin-top:55px;}
 
+.m-b-10{margin-bottom:10px;}
 .m-b-20{margin-bottom:20px;}
 .m-b-25{margin-bottom:25px;}
 .m-b-30{margin-bottom:30px;}
 .m-b-35{margin-bottom:35px;}
 .m-b-40{margin-bottom:40px;}
+.m-b-45{margin-bottom:45px;}
+.m-b-50{margin-bottom:50px;}
 .m-b-55{margin-bottom:55px;}
 
+
+/**************************************************************
+============	Header
+**************************************************************/
+header{
+}
+
+header nav{
+	position:relative;
+	top:-6px;
+	margin-bottom:-6px;
+}
+
+header nav .nav{
+}
+
+header nav .nav li{
+	margin-left:1px;
+}
+
+header nav .nav li a{
+	background:#fff;
+	color:#08496a;
+	font-size:12px;
+	border-radius:4px 4px 0px 0px;
+	padding:13px 23px;
+	text-transform:uppercase;
+}
+
+header nav .nav li.active a,
+header nav .nav li a:hover{
+	background: #ff3c00; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #ff3c00 0%, #ff8a00 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff3c00), color-stop(100%,#ff8a00)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  #ff3c00 0%,#ff8a00 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  #ff3c00 0%,#ff8a00 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  #ff3c00 0%,#ff8a00 100%); /* IE10+ */
+	background: linear-gradient(135deg,  #ff3c00 0%,#ff8a00 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3c00', endColorstr='#ff8a00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color:#fff;
+}
+
+/**************************************************************
+============	Top
+**************************************************************/
+#top{
+	background:url(../img/bgTop.jpg) no-repeat left top;
+	background-size:contain;
+	height:315px;
+}
+
+/**************************************************************
+============	Najchetniej wybierane
+**************************************************************/
+#najchetniej-wybierane{
+	padding:30px 0;
+}
+
+#najchetniej-wybierane h4{
+	font-size:24px;
+	color:#004773;
+	text-transform:uppercase;
+}
+
+#najchetniej-wybierane h4 span{
+	color:#05cf94;
+}
+
+#najchetniej-wybierane .bx-wrapper .bx-controls-direction a{
+	top:50%;
+}
+
+#najchetniej-wybierane .bx-wrapper .bx-prev{
+	left:-40px;
+}
+
+#najchetniej-wybierane .bx-wrapper .bx-next{
+	left:auto;
+	right:-40px;
+}
 
 /**************************************************************
 ============	Articles
