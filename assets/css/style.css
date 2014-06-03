@@ -161,11 +161,11 @@ header nav .nav li a:hover{
 #articles .articlesIcon{
 	background:url(../img/iconArt.png) no-repeat;
 	position:absolute;
-	top:-28px;
+	top:-25px;
 	left:50%;
-	margin-left:-29px;
-	width:58px;
-	height:56px;
+	margin-left:-25px;
+	width:51px;
+	height:46px;
 }
 
 #articles h4{
