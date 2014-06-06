@@ -100,10 +100,33 @@ header nav .nav li a:hover{
 
 #top .bgTop{
 	position:absolute;
-	background:url(../img/bgTop.jpg) no-repeat left top;
-	background-size:contain;
-	width:100%;
+	background: #004876; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #004876 0%, #004163 86%, #003645 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#004876), color-stop(86%,#004163), color-stop(100%,#003645)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg,  #004876 0%,#004163 86%,#003645 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg,  #004876 0%,#004163 86%,#003645 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg,  #004876 0%,#004163 86%,#003645 100%); /* IE10+ */
+	background: linear-gradient(45deg,  #004876 0%,#004163 86%,#003645 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#004876', endColorstr='#003645',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	width:55%;
 	height:100%;
+}
+
+#top .urlopingInfo{
+	background:url(../img/urlopingInfo.png) no-repeat;
+	width:326px;
+	height:78px;
+	margin-top:40px;
+}
+
+#top .maps{
+	position:absolute;
+	background:url(../img/bgMapka.png) no-repeat;
+	width:343px;
+	height:360px;
+	left:50%;
+	margin-left:-215px;
+	top:10px;
 }
 
 /**************************************************************
@@ -227,6 +250,15 @@ header nav .nav li a:hover{
 #polecane-pakiety .bx-wrapper .bx-prev:hover,
 #polecane-pakiety .bx-wrapper .bx-next:hover
 {background-position:bottom center;}
+
+/**************************************************************
+============	Newsletter
+**************************************************************/
+section#newsletter{
+	background:#004876;
+	height:65px;
+}
+
 
 /**************************************************************
 ============	Footer
