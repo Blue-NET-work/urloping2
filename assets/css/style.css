@@ -383,3 +383,46 @@ footer{
 #copyright a.social:hover{
 	background:#40bfb3;
 }
+
+
+
+/**************************************************************
+============	Hotele
+**************************************************************/
+#hotele{
+	padding:50px 0;
+}
+
+#hotele h4{
+	font-size:24px;
+	color:#004773;
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+#hotele h4 span{
+	color:#05cf94;
+}
+
+#hotele .bx-wrapper .bx-controls-direction a{
+	top:50%;
+}
+
+#hotele .bx-wrapper .bx-prev{
+	background:url(../img/slider/bx-prev.png) no-repeat top center;
+	left:-45px;
+	width:30px;
+	height:30px;
+}
+
+#hotele .bx-wrapper .bx-next{
+	background:url(../img/slider/bx-next.png) no-repeat top center;
+	left:auto;
+	width:30px;
+	height:30px;
+	right:-45px;
+}
+
+#hotele .bx-wrapper .bx-prev:hover,
+#hotele .bx-wrapper .bx-next:hover
+{background-position:bottom center;}
